@@ -1,0 +1,23 @@
+# CHANGELOG
+
+- [CHANGELOG](#changelog)
+  - [0.1.0](#010)
+  - [0.2.0](#020)
+
+---
+
+## 0.1.0
+
+Initial version.
+
+## 0.2.0
+
+**Schematic**
+
+- Embedded the TSL2591 sensor into the board.
+- Replaced through hole components with SMD.
+- Switched to M3 mounting holes.
+
+**Layout**
+
+Improved layout to be centered based upon fiducials.

@@ -1,0 +1,113 @@
+07-16 01:20:13 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 400:Plugin executed on: 'linux'
+07-16 01:20:13 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 401:Plugin executed with python version: '3.10.6 (main, May 29 2023, 11:10:38) [GCC 11.3.0]'
+07-16 01:20:13 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 402:KiCad build version: 7.0.6-7.0.6~ubuntu22.04.1
+07-16 01:20:13 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 403:Plugin version: 2.1.0
+07-16 01:20:13 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 404:Frame repr: <wx._core.Frame object at 0x7f18f120b880>
+07-16 01:20:13 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 428:Preparing replicator with J601 as a reference
+07-16 01:20:13 com_github_MitjaNemec_ReplicateLayout.replicate_layout 116:getting a list of all footprints on board
+07-16 01:20:13 com_github_MitjaNemec_ReplicateLayout.replicate_layout 135:Footprint G*** does not have Sheetfile property, it will not be replicated. Most likely it is only in layout
+07-16 01:20:13 com_github_MitjaNemec_ReplicateLayout.replicate_layout 135:Footprint G*** does not have Sheetfile property, it will not be replicated. Most likely it is only in layout
+07-16 01:20:13 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 476:source anchor footprint is 'J601'
+Located on: ['sensing_rtds', 'rtd_sensor_0']
+With filenames: ['/home/matthew/Documents/Github/LHR Solar/Power-Generation/blackbody/blackbody_a/hw/sensing_rtds.kicad_sch', '/home/matthew/Documents/Github/LHR Solar/Power-Generation/blackbody/blackbody_a/hw/rtd_sensor.kicad_sch']
+With sheet_id:['sensing_rtds', 'rtd_sensor_0']
+07-16 01:20:13 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 483:Corresponding footprints are 
+[('J1101', ['sensing_rtds', 'rtd_sensor_5']), ('J1201', ['sensing_rtds', 'rtd_sensor_6']), ('J1301', ['sensing_rtds', 'rtd_sensor_7']), ('J901', ['sensing_rtds', 'rtd_sensor_3']), ('J701', ['sensing_rtds', 'rtd_sensor_1']), ('J801', ['sensing_rtds', 'rtd_sensor_2']), ('J1001', ['sensing_rtds', 'rtd_sensor_4']), ('J601', ['sensing_rtds', 'rtd_sensor_0'])]
+07-16 01:20:13 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 495:Showing dialog
+07-16 01:20:13 com_github_MitjaNemec_ReplicateLayout.replicate_layout 403:constructing a list of sheets suitable for replication on level:'rtd_sensor_0', file:'/home/matthew/Documents/Github/LHR Solar/Power-Generation/blackbody/blackbody_a/hw/rtd_sensor.kicad_sch'
+07-16 01:20:13 com_github_MitjaNemec_ReplicateLayout.replicate_layout 440:suitable sheets are:[['sensing_rtds', 'rtd_sensor_1'], ['sensing_rtds', 'rtd_sensor_2'], ['sensing_rtds', 'rtd_sensor_3'], ['sensing_rtds', 'rtd_sensor_4'], ['sensing_rtds', 'rtd_sensor_5'], ['sensing_rtds', 'rtd_sensor_6'], ['sensing_rtds', 'rtd_sensor_7']]
+07-16 01:20:13 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1411:Level selected: ['sensing_rtds', 'rtd_sensor_0']
+07-16 01:20:13 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1246:Filtering list of tracks
+07-16 01:20:13 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 501:Toolbar position: wx.Point(3498, 169)
+07-16 01:20:13 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 506:Dialog position: wx.Point(3136, 169)
+07-16 01:20:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 403:constructing a list of sheets suitable for replication on level:'rtd_sensor_0', file:'/home/matthew/Documents/Github/LHR Solar/Power-Generation/blackbody/blackbody_a/hw/rtd_sensor.kicad_sch'
+07-16 01:20:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 440:suitable sheets are:[['sensing_rtds', 'rtd_sensor_1'], ['sensing_rtds', 'rtd_sensor_2'], ['sensing_rtds', 'rtd_sensor_3'], ['sensing_rtds', 'rtd_sensor_4'], ['sensing_rtds', 'rtd_sensor_5'], ['sensing_rtds', 'rtd_sensor_6'], ['sensing_rtds', 'rtd_sensor_7']]
+07-16 01:20:22 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 248:Replicating layout
+07-16 01:20:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 239:Starting replication of sheets: [['sensing_rtds', 'rtd_sensor_1'], ['sensing_rtds', 'rtd_sensor_2'], ['sensing_rtds', 'rtd_sensor_3'], ['sensing_rtds', 'rtd_sensor_4'], ['sensing_rtds', 'rtd_sensor_5'], ['sensing_rtds', 'rtd_sensor_6'], ['sensing_rtds', 'rtd_sensor_7']]
+on level: ['sensing_rtds', 'rtd_sensor_0']
+with tracks=True, zone=True, text=True, text=True, intersecting=False, remove=False, locked footprints=False, group_only=False
+07-16 01:20:22 root 340:updating GUI message: 'Preparing for replication'
+07-16 01:20:23 root 345:updating GUI with: 0
+07-16 01:20:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 309:Getting the list of source footprints
+07-16 01:20:23 root 345:updating GUI with: 0
+07-16 01:20:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 319:Getting the list of all the remaining footprints
+07-16 01:20:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 326:Getting source tracks
+07-16 01:20:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1246:Filtering list of tracks
+07-16 01:20:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 330:Getting source zones
+07-16 01:20:23 root 345:updating GUI with: 50
+07-16 01:20:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 334:Getting source text items
+07-16 01:20:23 root 345:updating GUI with: 66
+07-16 01:20:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 338:Getting source drawing items
+07-16 01:20:23 root 340:updating GUI message: 'Replicating footprints'
+07-16 01:20:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 754:Replicating footprints
+07-16 01:20:23 root 345:updating GUI with: 0
+07-16 01:20:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 761:Replicating footprints on sheet ['sensing_rtds', 'rtd_sensor_1']
+07-16 01:20:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 761:Replicating footprints on sheet ['sensing_rtds', 'rtd_sensor_2']
+07-16 01:20:23 root 345:updating GUI with: 28
+07-16 01:20:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 761:Replicating footprints on sheet ['sensing_rtds', 'rtd_sensor_3']
+07-16 01:20:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 761:Replicating footprints on sheet ['sensing_rtds', 'rtd_sensor_4']
+07-16 01:20:23 root 345:updating GUI with: 57
+07-16 01:20:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 761:Replicating footprints on sheet ['sensing_rtds', 'rtd_sensor_5']
+07-16 01:20:23 root 345:updating GUI with: 71
+07-16 01:20:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 761:Replicating footprints on sheet ['sensing_rtds', 'rtd_sensor_6']
+07-16 01:20:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 761:Replicating footprints on sheet ['sensing_rtds', 'rtd_sensor_7']
+07-16 01:20:23 root 340:updating GUI message: 'Replicating tracks'
+07-16 01:20:23 root 345:updating GUI with: 0
+07-16 01:20:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 924:Replicating tracks
+07-16 01:20:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 930:Replicating tracks on sheet ['sensing_rtds', 'rtd_sensor_1']
+07-16 01:20:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['sensing_rtds', 'rtd_sensor_1'] :[('+3V3', '+3V3'), ('GND', 'GND'), ('/controller/CS_0', '/controller/CS_1'), ('Net-(U601-FORCE+)', 'Net-(U701-FORCE+)'), ('/controller/DRDY', '/controller/DRDY'), ('Net-(U601-FORCE-)', 'Net-(U701-FORCE-)'), ('/controller/MOSI', '/controller/MOSI'), ('', ''), ('/controller/SCLK', '/controller/SCLK'), ('Net-(U601-RTDIN-)', 'Net-(U701-RTDIN-)'), ('Net-(U601-ISENSOR)', 'Net-(U701-ISENSOR)'), ('Net-(U601-RTDIN+)', 'Net-(U701-RTDIN+)'), ('/controller/MISO', '/controller/MISO'), ('Net-(U601-BIAS)', 'Net-(U701-BIAS)')]
+07-16 01:20:23 root 345:updating GUI with: 13
+07-16 01:20:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 930:Replicating tracks on sheet ['sensing_rtds', 'rtd_sensor_2']
+07-16 01:20:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['sensing_rtds', 'rtd_sensor_2'] :[('/controller/CS_0', '/controller/CS_2'), ('GND', 'GND'), ('+3V3', '+3V3'), ('/controller/DRDY', '/controller/DRDY'), ('', ''), ('Net-(U601-RTDIN-)', 'Net-(U801-RTDIN-)'), ('/controller/MOSI', '/controller/MOSI'), ('Net-(U601-BIAS)', 'Net-(U801-BIAS)'), ('/controller/SCLK', '/controller/SCLK'), ('Net-(U601-ISENSOR)', 'Net-(U801-ISENSOR)'), ('Net-(U601-RTDIN+)', 'Net-(U801-RTDIN+)'), ('/controller/MISO', '/controller/MISO'), ('Net-(U601-FORCE-)', 'Net-(U801-FORCE-)'), ('Net-(U601-FORCE+)', 'Net-(U801-FORCE+)')]
+07-16 01:20:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 930:Replicating tracks on sheet ['sensing_rtds', 'rtd_sensor_3']
+07-16 01:20:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['sensing_rtds', 'rtd_sensor_3'] :[('Net-(U601-BIAS)', 'Net-(U901-BIAS)'), ('+3V3', '+3V3'), ('GND', 'GND'), ('Net-(U601-FORCE-)', 'Net-(U901-FORCE-)'), ('/controller/DRDY', '/controller/DRDY'), ('', ''), ('/controller/MOSI', '/controller/MOSI'), ('/controller/SCLK', '/controller/SCLK'), ('Net-(U601-RTDIN+)', 'Net-(U901-RTDIN+)'), ('Net-(U601-ISENSOR)', 'Net-(U901-ISENSOR)'), ('/controller/CS_0', '/controller/CS_3'), ('/controller/MISO', '/controller/MISO'), ('Net-(U601-FORCE+)', 'Net-(U901-FORCE+)'), ('Net-(U601-RTDIN-)', 'Net-(U901-RTDIN-)')]
+07-16 01:20:23 root 345:updating GUI with: 33
+07-16 01:20:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 930:Replicating tracks on sheet ['sensing_rtds', 'rtd_sensor_4']
+07-16 01:20:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['sensing_rtds', 'rtd_sensor_4'] :[('+3V3', '+3V3'), ('GND', 'GND'), ('Net-(U601-RTDIN+)', 'Net-(U1001-RTDIN+)'), ('Net-(U601-RTDIN-)', 'Net-(U1001-RTDIN-)'), ('Net-(U601-FORCE+)', 'Net-(U1001-FORCE+)'), ('/controller/DRDY', '/controller/DRDY'), ('', ''), ('/controller/MOSI', '/controller/MOSI'), ('/controller/SCLK', '/controller/SCLK'), ('Net-(U601-FORCE-)', 'Net-(U1001-FORCE-)'), ('/controller/MISO', '/controller/MISO'), ('Net-(U601-BIAS)', 'Net-(U1001-BIAS)'), ('Net-(U601-ISENSOR)', 'Net-(U1001-ISENSOR)'), ('/controller/CS_0', '/controller/CS_4')]
+07-16 01:20:23 root 345:updating GUI with: 47
+07-16 01:20:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 930:Replicating tracks on sheet ['sensing_rtds', 'rtd_sensor_5']
+07-16 01:20:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['sensing_rtds', 'rtd_sensor_5'] :[('Net-(U601-RTDIN-)', 'Net-(U1101-RTDIN-)'), ('Net-(U601-ISENSOR)', 'Net-(U1101-ISENSOR)'), ('GND', 'GND'), ('+3V3', '+3V3'), ('/controller/CS_0', '/controller/CS_5'), ('Net-(U601-BIAS)', 'Net-(U1101-BIAS)'), ('/controller/DRDY', '/controller/DRDY'), ('Net-(U601-FORCE-)', 'Net-(U1101-FORCE-)'), ('/controller/MOSI', '/controller/MOSI'), ('', ''), ('/controller/SCLK', '/controller/SCLK'), ('Net-(U601-FORCE+)', 'Net-(U1101-FORCE+)'), ('Net-(U601-RTDIN+)', 'Net-(U1101-RTDIN+)'), ('/controller/MISO', '/controller/MISO')]
+07-16 01:20:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 930:Replicating tracks on sheet ['sensing_rtds', 'rtd_sensor_6']
+07-16 01:20:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['sensing_rtds', 'rtd_sensor_6'] :[('+3V3', '+3V3'), ('GND', 'GND'), ('Net-(U601-ISENSOR)', 'Net-(U1201-ISENSOR)'), ('Net-(U601-FORCE-)', 'Net-(U1201-FORCE-)'), ('', ''), ('Net-(U601-FORCE+)', 'Net-(U1201-FORCE+)'), ('/controller/DRDY', '/controller/DRDY'), ('/controller/MOSI', '/controller/MOSI'), ('/controller/CS_0', '/controller/CS_6'), ('/controller/SCLK', '/controller/SCLK'), ('Net-(U601-BIAS)', 'Net-(U1201-BIAS)'), ('/controller/MISO', '/controller/MISO'), ('Net-(U601-RTDIN+)', 'Net-(U1201-RTDIN+)'), ('Net-(U601-RTDIN-)', 'Net-(U1201-RTDIN-)')]
+07-16 01:20:23 root 345:updating GUI with: 71
+07-16 01:20:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 930:Replicating tracks on sheet ['sensing_rtds', 'rtd_sensor_7']
+07-16 01:20:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['sensing_rtds', 'rtd_sensor_7'] :[('GND', 'GND'), ('+3V3', '+3V3'), ('/controller/DRDY', '/controller/DRDY'), ('', ''), ('/controller/MOSI', '/controller/MOSI'), ('/controller/CS_0', '/controller/CS_7'), ('/controller/SCLK', '/controller/SCLK'), ('Net-(U601-FORCE+)', 'Net-(U1301-FORCE+)'), ('Net-(U601-RTDIN-)', 'Net-(U1301-RTDIN-)'), ('Net-(U601-RTDIN+)', 'Net-(U1301-RTDIN+)'), ('/controller/MISO', '/controller/MISO'), ('Net-(U601-BIAS)', 'Net-(U1301-BIAS)'), ('Net-(U601-FORCE-)', 'Net-(U1301-FORCE-)'), ('Net-(U601-ISENSOR)', 'Net-(U1301-ISENSOR)')]
+07-16 01:20:23 root 340:updating GUI message: 'Replicating zones'
+07-16 01:20:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 994:Replicating zones
+07-16 01:20:23 root 345:updating GUI with: 0
+07-16 01:20:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1001:Replicating zones on sheet ['sensing_rtds', 'rtd_sensor_1']
+07-16 01:20:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['sensing_rtds', 'rtd_sensor_1'] :[('+3V3', '+3V3'), ('GND', 'GND'), ('/controller/CS_0', '/controller/CS_1'), ('Net-(U601-FORCE+)', 'Net-(U701-FORCE+)'), ('/controller/DRDY', '/controller/DRDY'), ('Net-(U601-FORCE-)', 'Net-(U701-FORCE-)'), ('/controller/MOSI', '/controller/MOSI'), ('', ''), ('/controller/SCLK', '/controller/SCLK'), ('Net-(U601-RTDIN-)', 'Net-(U701-RTDIN-)'), ('Net-(U601-ISENSOR)', 'Net-(U701-ISENSOR)'), ('Net-(U601-RTDIN+)', 'Net-(U701-RTDIN+)'), ('/controller/MISO', '/controller/MISO'), ('Net-(U601-BIAS)', 'Net-(U701-BIAS)')]
+07-16 01:20:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1001:Replicating zones on sheet ['sensing_rtds', 'rtd_sensor_2']
+07-16 01:20:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['sensing_rtds', 'rtd_sensor_2'] :[('/controller/CS_0', '/controller/CS_2'), ('GND', 'GND'), ('+3V3', '+3V3'), ('/controller/DRDY', '/controller/DRDY'), ('', ''), ('Net-(U601-RTDIN-)', 'Net-(U801-RTDIN-)'), ('/controller/MOSI', '/controller/MOSI'), ('Net-(U601-BIAS)', 'Net-(U801-BIAS)'), ('/controller/SCLK', '/controller/SCLK'), ('Net-(U601-ISENSOR)', 'Net-(U801-ISENSOR)'), ('Net-(U601-RTDIN+)', 'Net-(U801-RTDIN+)'), ('/controller/MISO', '/controller/MISO'), ('Net-(U601-FORCE-)', 'Net-(U801-FORCE-)'), ('Net-(U601-FORCE+)', 'Net-(U801-FORCE+)')]
+07-16 01:20:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1001:Replicating zones on sheet ['sensing_rtds', 'rtd_sensor_3']
+07-16 01:20:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['sensing_rtds', 'rtd_sensor_3'] :[('Net-(U601-BIAS)', 'Net-(U901-BIAS)'), ('+3V3', '+3V3'), ('GND', 'GND'), ('Net-(U601-FORCE-)', 'Net-(U901-FORCE-)'), ('/controller/DRDY', '/controller/DRDY'), ('', ''), ('/controller/MOSI', '/controller/MOSI'), ('/controller/SCLK', '/controller/SCLK'), ('Net-(U601-RTDIN+)', 'Net-(U901-RTDIN+)'), ('Net-(U601-ISENSOR)', 'Net-(U901-ISENSOR)'), ('/controller/CS_0', '/controller/CS_3'), ('/controller/MISO', '/controller/MISO'), ('Net-(U601-FORCE+)', 'Net-(U901-FORCE+)'), ('Net-(U601-RTDIN-)', 'Net-(U901-RTDIN-)')]
+07-16 01:20:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1001:Replicating zones on sheet ['sensing_rtds', 'rtd_sensor_4']
+07-16 01:20:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['sensing_rtds', 'rtd_sensor_4'] :[('+3V3', '+3V3'), ('GND', 'GND'), ('Net-(U601-RTDIN+)', 'Net-(U1001-RTDIN+)'), ('Net-(U601-RTDIN-)', 'Net-(U1001-RTDIN-)'), ('Net-(U601-FORCE+)', 'Net-(U1001-FORCE+)'), ('/controller/DRDY', '/controller/DRDY'), ('', ''), ('/controller/MOSI', '/controller/MOSI'), ('/controller/SCLK', '/controller/SCLK'), ('Net-(U601-FORCE-)', 'Net-(U1001-FORCE-)'), ('/controller/MISO', '/controller/MISO'), ('Net-(U601-BIAS)', 'Net-(U1001-BIAS)'), ('Net-(U601-ISENSOR)', 'Net-(U1001-ISENSOR)'), ('/controller/CS_0', '/controller/CS_4')]
+07-16 01:20:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1001:Replicating zones on sheet ['sensing_rtds', 'rtd_sensor_5']
+07-16 01:20:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['sensing_rtds', 'rtd_sensor_5'] :[('Net-(U601-RTDIN-)', 'Net-(U1101-RTDIN-)'), ('Net-(U601-ISENSOR)', 'Net-(U1101-ISENSOR)'), ('GND', 'GND'), ('+3V3', '+3V3'), ('/controller/CS_0', '/controller/CS_5'), ('Net-(U601-BIAS)', 'Net-(U1101-BIAS)'), ('/controller/DRDY', '/controller/DRDY'), ('Net-(U601-FORCE-)', 'Net-(U1101-FORCE-)'), ('/controller/MOSI', '/controller/MOSI'), ('', ''), ('/controller/SCLK', '/controller/SCLK'), ('Net-(U601-FORCE+)', 'Net-(U1101-FORCE+)'), ('Net-(U601-RTDIN+)', 'Net-(U1101-RTDIN+)'), ('/controller/MISO', '/controller/MISO')]
+07-16 01:20:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1001:Replicating zones on sheet ['sensing_rtds', 'rtd_sensor_6']
+07-16 01:20:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['sensing_rtds', 'rtd_sensor_6'] :[('+3V3', '+3V3'), ('GND', 'GND'), ('Net-(U601-ISENSOR)', 'Net-(U1201-ISENSOR)'), ('Net-(U601-FORCE-)', 'Net-(U1201-FORCE-)'), ('', ''), ('Net-(U601-FORCE+)', 'Net-(U1201-FORCE+)'), ('/controller/DRDY', '/controller/DRDY'), ('/controller/MOSI', '/controller/MOSI'), ('/controller/CS_0', '/controller/CS_6'), ('/controller/SCLK', '/controller/SCLK'), ('Net-(U601-BIAS)', 'Net-(U1201-BIAS)'), ('/controller/MISO', '/controller/MISO'), ('Net-(U601-RTDIN+)', 'Net-(U1201-RTDIN+)'), ('Net-(U601-RTDIN-)', 'Net-(U1201-RTDIN-)')]
+07-16 01:20:23 root 345:updating GUI with: 85
+07-16 01:20:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1001:Replicating zones on sheet ['sensing_rtds', 'rtd_sensor_7']
+07-16 01:20:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['sensing_rtds', 'rtd_sensor_7'] :[('GND', 'GND'), ('+3V3', '+3V3'), ('/controller/DRDY', '/controller/DRDY'), ('', ''), ('/controller/MOSI', '/controller/MOSI'), ('/controller/CS_0', '/controller/CS_7'), ('/controller/SCLK', '/controller/SCLK'), ('Net-(U601-FORCE+)', 'Net-(U1301-FORCE+)'), ('Net-(U601-RTDIN-)', 'Net-(U1301-RTDIN-)'), ('Net-(U601-RTDIN+)', 'Net-(U1301-RTDIN+)'), ('/controller/MISO', '/controller/MISO'), ('Net-(U601-BIAS)', 'Net-(U1301-BIAS)'), ('Net-(U601-FORCE-)', 'Net-(U1301-FORCE-)'), ('Net-(U601-ISENSOR)', 'Net-(U1301-ISENSOR)')]
+07-16 01:20:23 root 340:updating GUI message: 'Replicating text'
+07-16 01:20:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1083:Replicating text
+07-16 01:20:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1090:Replicating text on sheet ['sensing_rtds', 'rtd_sensor_1']
+07-16 01:20:23 root 345:updating GUI with: 5
+07-16 01:20:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1090:Replicating text on sheet ['sensing_rtds', 'rtd_sensor_2']
+07-16 01:20:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1090:Replicating text on sheet ['sensing_rtds', 'rtd_sensor_3']
+07-16 01:20:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1090:Replicating text on sheet ['sensing_rtds', 'rtd_sensor_4']
+07-16 01:20:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1090:Replicating text on sheet ['sensing_rtds', 'rtd_sensor_5']
+07-16 01:20:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1090:Replicating text on sheet ['sensing_rtds', 'rtd_sensor_6']
+07-16 01:20:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1090:Replicating text on sheet ['sensing_rtds', 'rtd_sensor_7']
+07-16 01:20:23 root 340:updating GUI message: 'Replicating drawings'
+07-16 01:20:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1134:Replicating drawings
+07-16 01:20:23 root 345:updating GUI with: 0
+07-16 01:20:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1140:Replicating drawings on sheet ['sensing_rtds', 'rtd_sensor_1']
+07-16 01:20:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1140:Replicating drawings on sheet ['sensing_rtds', 'rtd_sensor_2']
+07-16 01:20:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1140:Replicating drawings on sheet ['sensing_rtds', 'rtd_sensor_3']
+07-16 01:20:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1140:Replicating drawings on sheet ['sensing_rtds', 'rtd_sensor_4']
+07-16 01:20:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1140:Replicating drawings on sheet ['sensing_rtds', 'rtd_sensor_5']
+07-16 01:20:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1140:Replicating drawings on sheet ['sensing_rtds', 'rtd_sensor_6']
+07-16 01:20:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1140:Replicating drawings on sheet ['sensing_rtds', 'rtd_sensor_7']
+07-16 01:20:23 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 264:Replication complete

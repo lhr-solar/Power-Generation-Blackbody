@@ -3,6 +3,8 @@
 - [IMPROVEMENTS](#improvements)
   - [Multiplexer](#multiplexer)
   - [eFUSE](#efuse)
+  - [Switching to MAX31865 QFN](#switching-to-max31865-qfn)
+  - [Switch to L432KC chip](#switch-to-l432kc-chip)
 
 ---
 
@@ -36,3 +38,19 @@ during use.
 The disadvantage of an eFuse is that as a PTC resistor, it is more inefficient
 than a regular fuse. It consumes more power and may enable the board to re-trip
 if there is a hardware failure.
+
+## Switching to MAX31865 QFN
+
+It looks like this package is cheaper (5.75$ for SSOP to 2.83$ for QFN) on
+JLCPCB. This should reduce BOM costs by a lot, especially since the original
+chip on Mouser is a whopping 8.01$. Going from our mouser supplier to this new
+chip should cut costs by 42$. Of course, it'll be even cheaper to use a
+multiplexer... Why not do both!
+
+It's also smaller.
+
+## Switch to L432KC chip
+
+A little more complicated planning, but since the nucleo is 11.33$, switching to
+the chip will save a couple dollars (7.91$ on Mouser and 5.94$ on JLCPCB!) and
+will be an order of magnitude smaller in required area!

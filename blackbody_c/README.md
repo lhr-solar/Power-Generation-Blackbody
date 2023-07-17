@@ -1,6 +1,6 @@
-# :sunny: Blackbody C - Topshell Irradiance Sensor
+# :sunny: Blackbody C - Topshell Irradiance Sensor Breakout
 
-- [:sunny: Blackbody C - Topshell Irradiance Sensor](#sunny-blackbody-c---topshell-irradiance-sensor)
+- [:sunny: Blackbody C - Topshell Irradiance Sensor Breakout](#sunny-blackbody-c---topshell-irradiance-sensor-breakout)
   - [Repository Structure](#repository-structure)
   - [Maintainers](#maintainers)
   - [Versioning](#versioning)

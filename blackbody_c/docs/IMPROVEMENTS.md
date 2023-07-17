@@ -3,6 +3,7 @@
 - [IMPROVEMENTS](#improvements)
   - [Connector Swap](#connector-swap)
   - [Copper Ring](#copper-ring)
+  - [Switch to L432KC chip](#switch-to-l432kc-chip)
 
 ---
 
@@ -21,3 +22,9 @@ reduce noise from other sources (perhaps the solar cells).
 Note that we should consider having the ring in internal layers (making the PCB
 a 4 layer board) to prevent contact with other live components which may short
 across the ring.
+
+## Switch to L432KC chip
+
+A little more complicated planning, but since the nucleo is 11.33$, switching to
+the chip will save a couple dollars (7.91$ on Mouser and 5.94$ on JLCPCB!) and
+will be an order of magnitude smaller in required area! 

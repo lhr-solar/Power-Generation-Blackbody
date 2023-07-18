@@ -1,4 +1,4 @@
-(footprint "TSL25911FN" (version 20221018) (generator pcbnew)
+(footprint "ams_TSL25911FN" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (descr "TSL25911FN")
   (tags "Integrated Circuit")
@@ -49,7 +49,7 @@
   (pad "4" smd rect (at 0.75 0.65 90) (size 0.35 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 50a61db3-cef2-498f-85f4-213116fb2647))
   (pad "5" smd rect (at 0.75 0 90) (size 0.35 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 52369813-b106-4bc1-8ff5-7ae97bd2030b))
   (pad "6" smd rect (at 0.75 -0.65 90) (size 0.35 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp cfcd715f-c44f-4e4d-8740-e24db1cbd362))
-  (model "${KIPRJMOD}/models/TSL25911FN.stp"
+  (model "${KIPRJMOD}/models/ams_TSL25911FN.stp"
     (offset (xyz 0 0 0.1))
     (scale (xyz 0.001 0.001 0.001))
     (rotate (xyz -90 0 0))

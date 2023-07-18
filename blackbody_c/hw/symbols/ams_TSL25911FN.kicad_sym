@@ -6,7 +6,7 @@
     (property "Value" "TSL25911FN" (at 21.59 5.08 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (property "Footprint" "footprints:TSL25911FN" (at 21.59 -94.92 0)
+    (property "Footprint" "footprints:ams_TSL25911FN" (at 21.59 -94.92 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "http://ams.com/documents/20143/36005/TSL2591_DS000338_6-00.pdf" (at 21.59 -194.92 0)

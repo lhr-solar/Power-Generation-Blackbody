@@ -31,7 +31,7 @@
 
 ## Maintainers
 
-The current maintainer of this project is Matthew Yu as of 07/16/2023. His email
+The current maintainer of this project is Matthew Yu as of 07/22/2023. His email
 is [matthewjkyu@gmail.com](matthewjkyu@gmail.com).
 
 Contributors to the HW and FW encompass many dedicated students, including:

@@ -63,14 +63,8 @@
         "courtyards_overlap|46620001|83430001|2446a56a-fb30-42ff-bbc4-88d6d9128fd6|dbd23eb5-c792-4a90-918a-0b795b84eac6",
         "courtyards_overlap|49170001|83430001|2446a56a-fb30-42ff-bbc4-88d6d9128fd6|fe94e6ad-bfc0-4b8f-ac20-e706ad8dca49",
         "courtyards_overlap|60820001|83430001|2446a56a-fb30-42ff-bbc4-88d6d9128fd6|621ba246-2bc4-4ae7-bbe5-5c749eeb8743",
-        "duplicate_footprints|68900000|23600000|9719eb24-c6d3-4349-a461-d2bf37203bf3|1a20fbfa-e846-4ed6-8882-4d7512bae030",
-        "extra_footprint|68900000|23600000|9719eb24-c6d3-4349-a461-d2bf37203bf3|00000000-0000-0000-0000-000000000000",
-        "extra_footprint|80125000|23425000|1a20fbfa-e846-4ed6-8882-4d7512bae030|00000000-0000-0000-0000-000000000000",
         "net_conflict|43205000|98015000|14cb1cc0-1eea-4ae0-9922-a09da8143d2b|00000000-0000-0000-0000-000000000000",
-        "net_conflict|43205000|98015000|1ac92d8f-d5c6-4c2f-9560-303789797ade|00000000-0000-0000-0000-000000000000",
-        "silk_overlap|39165736|112967264|623f82b8-47b2-4092-aa61-6a3708e39c35|ceaa0937-f3d3-400d-bbd2-ccbdec13beb8",
-        "silk_overlap|59406848|113800000|420addb8-81ad-4013-ab6b-11b44180c626|55ab9a90-ca81-4bbb-b4fc-350eeb8ae828",
-        "silk_overlap|70800000|113688488|95408f7c-2b6f-41c1-972d-3300a6206944|1f6e3318-0e84-4d8e-b779-c1f8f1f55b6a"
+        "net_conflict|43205000|98015000|1ac92d8f-d5c6-4c2f-9560-303789797ade|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
         "filename": "board_design_settings.json",
@@ -97,7 +91,7 @@
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
-        "lib_footprint_issues": "error",
+        "lib_footprint_issues": "ignore",
         "lib_footprint_mismatch": "error",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
@@ -238,9 +232,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "pin_not_driven|2286000|571500|e06ec00f-16e1-46d1-bafd-c92c565397b8|00000000-0000-0000-0000-000000000000|||"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -491,7 +483,7 @@
       "idf": "",
       "netlist": "MPPT.net",
       "specctra_dsn": "",
-      "step": "blackbody_a.step",
+      "step": "production/blackbody_a.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

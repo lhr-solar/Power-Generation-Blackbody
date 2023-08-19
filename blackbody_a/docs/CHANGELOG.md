@@ -29,3 +29,5 @@ Initial version.
 ## 0.3.0rc (proposed)
 
 - Multiplexer to simplify 8 MAX chips to 1 MAX chip and 8 outlets. Consider resistance increase and error.
+  - Look at 2 multichannel FET [chips](mouser.com/ProductDetail/Diodes-Incorporated/DMHT3006LFJ-13?qs=PqoDHHvF64%2FIw5fnwz%252BNTw%3D%3D) each for positive line (4 chips)
+  - Set requirement on resistance [error](https://www.tnp-instruments.com/sitebuildercontent/sitebuilderfiles/pt100_385c_table.pdf)

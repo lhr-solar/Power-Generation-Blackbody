@@ -55,9 +55,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "silk_overlap|0|0|a270f093-fd5a-464e-aaa7-2ac66416f2c7|969db315-46f4-4214-9a20-cca2fa0ff32e"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -82,7 +80,7 @@
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
-        "lib_footprint_issues": "error",
+        "lib_footprint_issues": "ignore",
         "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "ignore",
         "microvia_drill_out_of_range": "error",
@@ -473,7 +471,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "blackbody_b.step",
+      "step": "production/blackbody_b.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

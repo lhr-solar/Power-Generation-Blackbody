@@ -3,6 +3,7 @@
 - [CHANGELOG](#changelog)
   - [0.1.0](#010)
   - [0.2.0](#020)
+  - [1.0.0rc (proposed)](#100rc-proposed)
 
 ---
 
@@ -21,3 +22,6 @@ Initial version.
 **Layout**
 
 Improved layout to be centered based upon fiducials.
+
+## 1.0.0rc (proposed)
+

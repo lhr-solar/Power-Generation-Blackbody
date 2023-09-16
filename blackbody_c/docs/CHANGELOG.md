@@ -2,7 +2,7 @@
 
 - [CHANGELOG](#changelog)
   - [0.1.0](#010)
-  - [0.2.0rc (proposed)](#020rc-proposed)
+  - [1.0.0rc (proposed)](#100rc-proposed)
 
 ---
 
@@ -10,7 +10,7 @@
 
 Initial version.
 
-## 0.2.0rc (proposed)
+## 1.0.0rc (proposed)
 
 **Schematic**
 

@@ -5,6 +5,7 @@
   - [Versioning](#versioning)
   - [TODO](#todo)
     - [Documentation](#documentation)
+    - [HW](#hw)
     - [SW](#sw)
 
 ---
@@ -57,8 +58,14 @@ versioning](https://semver.org/) to denote between versions. See the
 - Update the following documents:
   - [Ordering and assembly](./docs/ORDERING_AND_ASSEMBLY.md)
   - [Testing](./docs/TESTING.md)
-- Add datasheets for key components of the device.
+  - [Changelog](./docs/CHANGELOG.md)
+
+### HW
+
+- Run electrical tests as described in [TESTING.md](./docs/TESTING.md#electrical-tests).
+- See [changelog 1.0.0rc](./docs/CHANGELOG.md#100rc-proposed) proposed changes to improve board cost, size.
 
 ### SW
 
-- Regenerate code for MBED with proposed file structure.
+- Write firmware as discussed by [SYSTEM_DESIGN.md](./docs/SYSTEM_DESIGN.md).
+- Run firmware tests as described in [TESTING.md](./docs/TESTING.md#firmware-tests).

@@ -2,6 +2,7 @@
 
 - [IMPROVEMENTS](#improvements)
   - [Switch to L432KC chip](#switch-to-l432kc-chip)
+  - [Add RTD sensor](#add-rtd-sensor)
   - [Optimize size and cost](#optimize-size-and-cost)
 
 ---
@@ -14,6 +15,11 @@ will be an order of magnitude smaller in required area!
 
 The prereq for this is that a 5V and 3V3 regulator must be added to the system,
 as well as a JTAG programmer and UART to USB FTDI chip.
+
+## Add RTD sensor
+
+It would be good to add a standalone RTD sensor with a MAX31865 chip for
+measuring test surface temperature. 
 
 ## Optimize size and cost
 

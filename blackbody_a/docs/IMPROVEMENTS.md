@@ -5,6 +5,7 @@
   - [eFUSE](#efuse)
   - [Switching to MAX31865 QFN](#switching-to-max31865-qfn)
   - [Switch to L432KC chip](#switch-to-l432kc-chip)
+  - [Add I2C mux, extra ports](#add-i2c-mux-extra-ports)
 
 ---
 
@@ -54,3 +55,10 @@ It's also smaller.
 A little more complicated planning, but since the nucleo is 11.33$, switching to
 the chip will save a couple dollars (7.91$ on Mouser and 5.94$ on JLCPCB!) and
 will be an order of magnitude smaller in required area!
+
+## Add I2C mux, extra ports
+
+There is an existing errata w/ v0.2.0 in which both TSL2591s have the same
+hardware programmed I2C address. This means that we cannot talk to both devices
+without comm conflicts. We need an I2C mux to be able to individually talk to
+each device; and perhaps expand the irradiance sensor numbers from 2 to 8.

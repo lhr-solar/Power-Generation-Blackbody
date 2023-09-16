@@ -7,7 +7,7 @@
   - [TODO](#todo)
     - [Documentation](#documentation)
     - [HW](#hw)
-    - [SW](#sw)
+    - [FW](#fw)
 
 ---
 
@@ -31,7 +31,7 @@
 
 ## Maintainers
 
-The current maintainer of this project is Matthew Yu as of 07/22/2023. His email
+The current maintainer of this project is Matthew Yu as of 09/09/2023. His email
 is [matthewjkyu@gmail.com](matthewjkyu@gmail.com).
 
 Contributors to the HW and FW encompass many dedicated students, including:
@@ -59,13 +59,13 @@ versioning](https://semver.org/) to denote between versions. See the
 
 - Update the following documents:
   - [Ordering and assembly](./docs/ORDERING_AND_ASSEMBLY.md)
-  - [Testing](./docs/TESTING.md)
-- Add datasheets for key components of the device.
 
 ### HW
 
-- See [changelog 0.3.0rc](./docs/CHANGELOG.md#030rc-proposed) proposed changes to improve board cost, size.
+- Run electrical tests as described in [TESTING.md](./docs/TESTING.md#electrical-tests).
+- See [changelog 1.0.0rc](./docs/CHANGELOG.md#100rc-proposed) proposed changes to improve board cost, size.
 
-### SW
+### FW
 
-- Regenerate code for MBED with proposed file structure.
+- Write firmware as discussed by [SYSTEM_DESIGN.md](./docs/SYSTEM_DESIGN.md).
+- Run firmware tests as described in [TESTING.md](./docs/TESTING.md#firmware-tests).

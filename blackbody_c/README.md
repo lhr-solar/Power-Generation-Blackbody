@@ -7,7 +7,6 @@
   - [TODO](#todo)
     - [Documentation](#documentation)
     - [HW](#hw)
-    - [SW](#sw)
 
 ---
 
@@ -54,13 +53,7 @@ versioning](https://semver.org/) to denote between versions. See the
 
 - Update the following documents:
   - [Ordering and assembly](./docs/ORDERING_AND_ASSEMBLY.md)
-  - [Testing](./docs/TESTING.md)
-- Add datasheets for key components of the device.
 
 ### HW
 
-- See [changelog 0.2.0rc](./docs/CHANGELOG.md#020rc-proposed) proposed changes to improve board cost, size.
-
-### SW
-
-- Regenerate code for MBED with proposed file structure.
+- Make board revision as proposed by [changelog 1.0.0rc](./docs/CHANGELOG.md#100rc-proposed).

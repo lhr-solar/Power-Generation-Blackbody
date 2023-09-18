@@ -25,3 +25,8 @@ Improved layout to be centered based upon fiducials.
 
 ## 1.0.0rc (proposed)
 
+**Schematic**
+
+- Switch to L432KC chip.
+- Add RTD sensor.
+- Optimize size and cost.

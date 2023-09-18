@@ -22,9 +22,9 @@
 4. State machine tests
    1. Verify that the state machine transitions as expected given all possible inputs.
    2. Verify that mock inputs properly trigger event generators.
-   3. Verify that events associated with each event generator execute as expected
-      1. CanEG event task: process input CAN messages (SET_MODE, ACK_FAULT, IRR_CONF) 
-      2. StateMachineEG event task: transitions state and enables required EGs
+   3. Verify that events associated with each event generator execute as expected.
+      1. CanEG event task: process input CAN messages (SET_MODE, ACK_FAULT, IRR_CONF).
+      2. StateMachineEG event task: transitions state and enables required EGs.
       3. IrradEG event task: performs irradiance measurement and outputs result
-         to CAN 
-      4. Heartbeat event task: outputs heartbeat CAN message
+         to CAN.
+      4. Heartbeat event task: outputs heartbeat CAN message.

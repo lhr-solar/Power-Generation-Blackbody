@@ -91,27 +91,24 @@ CAN messages:
 
 | ADDRESS | NAME     | DIRECTION | NUM BYTES | DESCRIPTION                                          |
 |---------|----------|-----------|-----------|------------------------------------------------------|
-| 0x630   | HEARTBEAT| OUT       | 1         | Don't care, message presence indicates liveliness.   |
+| 0x630   | HEARTBEAT| OUT       | 1         | Current cycle count. Rollover at 255 cycles/seconds. |
 | 0x631   | SET_MODE | IN        | 1         | 0x00 -> STOP, 0x01 -> RUN                            |
 | 0x632   | BB_FAULT | OUT       | 2         | Error code, see [ERRORS](#errors)                    |
-| 0x633   | ACK_FAULT| IN        | 1         | 0x01 -> Ack fault and return to STOP state           |
+| 0x633   | ACK_FAULT| IN        | 1         | Don't care, Ack fault and return to STOP state.      |
 | 0x635   | IRR_CONF | IN        | 3         | MSB: enabled IRRADs; LSB(2): IRRAD Sample freq. in Hz|
-| 0x637   | IRR_MEAS | OUT       | 5         | MSB -> IRRAD ID, other, Irrad in W/m^2, float        |
+| 0x637   | IRR_MEAS | OUT       | 5         | MSB -> IRRAD ID, LSB(4): Irrad in W/m^2, float.      |
 
 > If a fault has occured, then the controller must acknowledge the fault
 (ACK_FAULT=1) and then restart sampling by setting the mode to RUN (SET_MODE=1). 
 
-> The MSB of RTD_CONF and IRR_CONF is a bit packed struct indicating which sensors are
-turned on; e.g. for RTD_CONF MSB:
->
-> `0b1111_0001`
->
-> RTDs 0, 4, 5, 6, 7 are enabled and 1, 2, 3 are disabled.
+> Given that there is only one sensor on Blackbody B, IRR_CONF MSB is ignored.
 
 ---
 
 ## ERRORS
 
-| NUMBER | DESCRIPTION |
-|--------|-------------|
-| 0x00   | No fault.   |
+| NUMBER | DESCRIPTION                    |
+|--------|--------------------------------|
+| 0x00   | No fault.                      |
+| 0x01   | Intentional debug fault.       |
+| 0x02   | Irradiance sensor setup failed.|

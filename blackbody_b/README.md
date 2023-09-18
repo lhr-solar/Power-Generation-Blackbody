@@ -30,7 +30,7 @@
 
 ## Maintainers
 
-The current maintainer of this project is Matthew Yu as of 07/16/2023. His email
+The current maintainer of this project is Matthew Yu as of 09/17/2023. His email
 is [matthewjkyu@gmail.com](matthewjkyu@gmail.com).
 
 Contributors to the HW and FW encompass many dedicated students, including:
@@ -57,15 +57,14 @@ versioning](https://semver.org/) to denote between versions. See the
 
 - Update the following documents:
   - [Ordering and assembly](./docs/ORDERING_AND_ASSEMBLY.md)
-  - [Testing](./docs/TESTING.md)
-  - [Changelog](./docs/CHANGELOG.md)
 
 ### HW
 
-- Run electrical tests as described in [TESTING.md](./docs/TESTING.md#electrical-tests).
 - See [changelog 1.0.0rc](./docs/CHANGELOG.md#100rc-proposed) proposed changes to improve board cost, size.
 
 ### SW
 
-- Write firmware as discussed by [SYSTEM_DESIGN.md](./docs/SYSTEM_DESIGN.md).
-- Run firmware tests as described in [TESTING.md](./docs/TESTING.md#firmware-tests).
+- Validate final production program, in particular regards to CAN control.
+- Add optional serial PC control.
+- Calibrate TSL2591 light sensor for expected lighting conditions.
+- Point all mbed-os references to fw/lib.

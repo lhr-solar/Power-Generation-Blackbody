@@ -1,3 +1,6 @@
 [submodule "blackbody_a/fw/lib/mbed-os"]
 	path = blackbody_a/fw/lib/mbed-os
 	url = https://github.com/ARMmbed/mbed-os.git
+[submodule "blackbody_b/fw/lib/mbed-os"]
+	path = blackbody_b/fw/lib/mbed-os
+	url = https://github.com/ARMmbed/mbed-os.git

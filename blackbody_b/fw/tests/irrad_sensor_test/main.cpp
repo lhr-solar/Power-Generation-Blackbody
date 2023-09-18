@@ -17,8 +17,9 @@
  * 
  *  - D2  | CAN_TX
  *  - D10 | CAN_RX
- *  - D4  | I2C_SDA to Blackbody C
- *  - D5  | I2C_SCL to Blackbody C
+ *  - D4  | I2C_SDA to irradiance sensor
+ *  - D5  | I2C_SCL to irradiance sensor
+ *  - D6  | INT from irradiance sensor
  *  - D11 | SPI_MISO to RTDs
  *  - D12 | SPI_MOSI to RTDs
  *  - D13 | SPI_SCLK to RTDs
@@ -32,16 +33,15 @@
  *  - A7  | SPI_CS_4 to RTDs
  */
 #include "mbed.h"
-#include "../../inc/tsl2591.h"
-
-#define I2C_SDA D4
-#define I2C_SCL D5
+#include "inc/tsl2591.hpp"
 
 DigitalOut led_heartbeat(D1);
 DigitalOut led_tracking(D0);
 DigitalOut led_error(D3);
-I2C irradiance_sensor_i2c(I2C_SDA, I2C_SCL);
-TSL2591 irradiance_sensor(&irradiance_sensor_i2c);
+
+I2C i2c1(D4, D5);
+InterruptIn sensor_int(D6);
+TSL2591 irradiance_sensor(&i2c1, &sensor_int, TSL2591_ADDR);
 
 Ticker ticker_heartbeat;
 EventQueue queue(32 * EVENTS_EVENT_SIZE);
@@ -59,12 +59,19 @@ void event_measure_sensor(void);
 
 int main()
 {
+    ThisThread::sleep_for(3000ms);
+    
     led_heartbeat = 0;
-    led_tracking = 1;
+    led_tracking = 0;
     led_error = 0;
 
-    ticker_heartbeat.attach(&handler_heartbeat, 1000ms);
+    if (!irradiance_sensor.setup()) {
+        led_error = 1;
+        while (1);
+    }
+    led_tracking = 1;
 
+    ticker_heartbeat.attach(&handler_heartbeat, 250ms);
     queue.dispatch_forever();
 }
 
@@ -75,6 +82,14 @@ void handler_heartbeat(void) {
 
 void event_measure_sensor(void) {
     // Measure sensor
+    uint16_t ch0_raw;
+    uint16_t ch1_raw;
+    irradiance_sensor.sample(&ch0_raw, &ch1_raw);
+
     // Perform calibration and filter function
+    float ch0_irradiance = ch0_raw / (264.1 * 100);
+    float ch1_irradiance = ch1_raw / (34.9 * 100);
+    
     // Output to screen
+    printf("CH0: %.3f w/m^2\tCH1: %.3f w/m^2\n", ch0_irradiance, ch1_irradiance);
 }

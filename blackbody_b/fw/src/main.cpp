@@ -56,19 +56,22 @@ typedef enum Error_t {
 static DigitalOut led_heartbeat(D1);
 static DigitalOut led_tracking(D0);
 static DigitalOut led_error(D3);
+
 static CAN can(D10, D2);
+
 static I2C i2c1(D4, D5);
 static InterruptIn sensor_int(D6);
 static TSL2591 irradiance_sensor(&i2c1, &sensor_int, TSL2591_ADDR);
+
 static Ticker ticker_heartbeat;
 static Ticker ticker_sample_irrad;
 static EventQueue queue(32 * EVENTS_EVENT_SIZE);
 
 static enum State current_state;
-bool is_error;
-bool set_mode;
-uint16_t sample_frequency;
-Error_t sys_error;
+static bool is_error;
+static bool set_mode;
+static uint16_t sample_frequency;
+static Error_t sys_error;
 
 /**
  * @brief Interrupt triggered by the heartbeat ticker to call event
@@ -130,6 +133,10 @@ int main() {
         sys_error = ERROR_IRRAD_SETUP;
         queue.call(&event_process_error);
     }
+
+    // Force start
+    set_mode = true;
+    queue.call(&event_update_state_machine);
 
     ticker_heartbeat.attach(&handler_heartbeat, 1000ms);
     can.attach(&handler_can, CAN::RxIrq);

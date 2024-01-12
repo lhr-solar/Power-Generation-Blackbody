@@ -11,8 +11,8 @@ systems.
 
 ```mermaid
 graph TD;
-    MCU-->IRRADIANCE_SENSOR
     MCU-->CURVE_TRACER
+    MCU-->IRRADIANCE_SENSOR
 ```
 
 The systems consists of a STM32 L432KC low power microcontroller sampling either
@@ -30,7 +30,6 @@ This device runs on a HLFSM, in which there are three states, **STOP**, **RUN**,
 and **ERROR**. Transition between these states depend on error occurrence and
 the latest SET_MODE and ACK_FAULT CAN messages, described further in
 section [Communication](#communication). 
-
 
 Program execution:
  - **1 Hz** cycle of HEARTBEAT LED to indicate liveliness
